@@ -69,5 +69,5 @@ go run main.go
 }
 ```
 
-### 2. **GET /getDataById&id=<id>**
+### 2. **GET /getDataById?id=id**
   Get sensor data by device ID
