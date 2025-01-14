@@ -1,0 +1,33 @@
+# Ignore the Go binary executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignore Go object files
+*.o
+*.a
+
+# Ignore the Go vendor directory (if using vendoring)
+vendor/
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+*.swp
+
+# Ignore Go test and coverage files
+*.test
+*.out
+*.cover
+
+# Ignore Go module files if using Go modules
+go.sum
+go.mod
+
+# Ignore log files
+*.log
+
+# Ignore configuration files
+config.json
